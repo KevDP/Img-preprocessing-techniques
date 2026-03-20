@@ -46,3 +46,10 @@ Al final, se puede aplicar un estilo diferente, después de haber equalizado o a
 
 ## Referencias
 Mordvintsev, A. & Abid K. (2013). Histograms - 2: Histogram Equalization. 6 de mayo, 2021, de OpenCV-Python Tutorials Sitio web: <https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_histograms/py_histogram_equalization/py_histogram_equalization.html>
+
+
+## tutorial pipeline
+
+curl -s -X POST https://yyezg0ahug.execute-api.us-east-1.amazonaws.com/stg-pipelin-kevhit/predict \
+  -H "Content-Type: application/json" \
+  -d '[["S01", "P01", 12.5, 0, 0, 22.3, 6, 2]]'
