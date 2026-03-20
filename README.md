@@ -50,8 +50,8 @@ Mordvintsev, A. & Abid K. (2013). Histograms - 2: Histogram Equalization. 6 de m
 
 ## tutorial pipeline
 
-´´
+´´´
 curl -s -X POST https://yyezg0ahug.execute-api.us-east-1.amazonaws.com/stg-pipelin-kevhit/predict \
   -H "Content-Type: application/json" \
   -d '[["S01", "P01", 12.5, 0, 0, 22.3, 6, 2]]'
-´´
+´´´
